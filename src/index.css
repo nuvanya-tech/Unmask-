@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) scale(0.6);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-40px) scale(1.1);
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(-280px) scale(1.2);
+    opacity: 0;
+  }
+}
+
+.animate-float-up {
+  animation: floatUp 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(240, 93, 159, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(240, 93, 159, 0.5);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s infinite ease-in-out;
+}

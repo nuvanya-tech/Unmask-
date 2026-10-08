@@ -1,0 +1,6 @@
+{
+  "name": "UNMASK - Truth & Dare Online",
+  "description": "A private two-player conversation game. Start light, get real, and discover what lies underneath with Truths, Dares, and depth progression.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
